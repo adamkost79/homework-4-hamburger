@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hamburger Collector Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/game.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-med-12">
+        <h1> <img src="assets/images/headburger.jpg" style= width:50px; height:50px;></img> Hamburger Collector Game <img src="assets/images/headburger.jpg" style= width:50px; height:50px;></img></h1>
+      </div>
+    </div>
+
+    <div class="panel instructions">
+      <div class="row game">
+        <div class="col-md-8">
+          <ul>Instructions!</ul>
+          <li>You have four crystals with random values assigned to it</li>
+          <li>Click on the crystals below to match your score to the target score</li>
+          <li>You win if you get a score equal to the target score. Get past that score and you lose</li>
+          <li>The game resets once you win or lose. The crystal values also reset</li>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default scorebox">
+          <p id="targetBlock">Target Score: <span id="targetScore"></span></p>
+          <p> Wins: <span id="wins"></span></p>
+          <p> Losses: <span id="losses"></span></p>
+          <p> Score: <span id="score"></span></p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="images">
+          <img id="b1" class="burger" src="assets/images/burger1.jpeg">
+          <img id="b2" class="burger" src="assets/images/burger3.jpeg">
+          <img id="b3" class="burger" src="assets/images/burger2.jpeg">
+          <img id="b4" class="burger" src="assets/images/burger4.jpeg">
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

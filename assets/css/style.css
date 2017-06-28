@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid, html {
+  background: url("../images/opu4k00.jpg") no-repeat center center fixed;
+  background-size: 100% 100%;
+  font-family: courier;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: courier;
+  color: black;
+  font-weight: 600;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: red;
+  border-width: thick;
+  background-color: gold;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100px;
+}
+
+.instructions {
+  padding: 20px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 2px 6px 2px 2px;
+}
+
+ul {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.scorebox {
+  border-radius: 10px;
+  background-color: yellow;
+  font-size: 20px;
+  box-shadow: 2px 6px 2px 2px;
+}
+
+targetBlock {
+  padding-bottom: 20px;
+}
+
+#targetScore, #score, #wins, #losses {
+  font-size: 45px;
+}
+
+.images {
+  position: relative;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.burger {
+  width: 175px;
+  height: 175px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  box-shadow: 5px 20px 5px 5px;
+}
